@@ -16,17 +16,17 @@ TEMPLATE = app
 SOURCES += main.cpp\
     login.cpp \
     register.cpp \
-    form.cpp
+    chatwindow.cpp
 
 HEADERS  += \
     login.h \
     register.h \
-    form.h
+    chatwindow.h
 
 FORMS    += \
     login.ui \
     register.ui \
-    form.ui
+    chatwindow.ui
 
 RESOURCES += \
     chat.qrc

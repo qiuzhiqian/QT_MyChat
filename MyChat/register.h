@@ -4,6 +4,7 @@
 #include <QDialog>
 //#include <QSqlDatabase>
 #include <QtSql>
+#include "login.h"
 
 namespace Ui {
 class Register;
@@ -34,6 +35,7 @@ private:
 private slots:
     void okBtn_clicked();
     void closeBtn_clicked();
+    void receivedb(QSqlDatabase db);
 };
 
 #endif // REGISTER_H
